@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	BasicFlock
-Summary:	File::BasicFlock perl module
-Summary(pl):	Modu³ perla File::BasicFlock
+Summary:	File::BasicFlock - file locking with flock
+Summary(pl):	File::BasicFlock - blokowanie plików za pomoc± flock
 Name:		perl-File-BasicFlock
 Version:	98.1202
 Release:	9
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	760451bfea6b4f20a2e31d81b3f4f551
@@ -16,11 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File::BasicFlock - file locking with flock.
+File::BasicFlock module is used to lock files using the flock() call. 
+The file to be locked must already exist.
 
 %description -l pl
-File::BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji
-flock().
+Modu³ File::BasicFlock s³u¿y do blokowania plików za pomoc± wywwo³ania
+flock(). Blokowany plik musi istnieæ. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
