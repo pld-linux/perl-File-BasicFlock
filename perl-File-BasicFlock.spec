@@ -3,7 +3,7 @@ Summary:	File-BasicFlock perl module
 Summary(pl):	Modu³ perla File-BasicFlock
 Name:		perl-File-BasicFlock
 Version:	98.1202
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
