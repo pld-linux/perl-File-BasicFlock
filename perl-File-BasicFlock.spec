@@ -24,7 +24,7 @@ File::BasicFlock module is used to lock files using the flock() call.
 The file to be locked must already exist.
 
 %description -l pl
-Modu³ File::BasicFlock s³u¿y do blokowania plików za pomoc± wywwo³ania
+Modu³ File::BasicFlock s³u¿y do blokowania plików za pomoc± wywo³ania
 flock(). Blokowany plik musi istnieæ. 
 
 %prep
