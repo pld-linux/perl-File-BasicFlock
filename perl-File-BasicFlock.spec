@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	BasicFlock
-Summary:	File-BasicFlock perl module
-Summary(pl):	Modu³ perla File-BasicFlock
+Summary:	File::BasicFlock perl module
+Summary(pl):	Modu³ perla File::BasicFlock
 Name:		perl-File-BasicFlock
 Version:	98.1202
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File-BasicFlock - file locking with flock.
+File::BasicFlock - file locking with flock.
 
 %description -l pl
-File-BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji
+File::BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji
 flock().
 
 %prep
