@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla File-BasicFlock
 Name:		perl-File-BasicFlock
 Version:	98.1202
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/File/File-BasicFlock-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/File/File-BasicFlock-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,7 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 File-BasicFlock - file locking with flock.
 
 %description -l pl
-File-BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji flock().
+File-BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji
+flock().
 
 %prep
 %setup -q -n File-BasicFlock-%{version}
