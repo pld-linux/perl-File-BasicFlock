@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	BasicFlock
-%include	/usr/lib/rpm/macros.perl
 Summary:	File-BasicFlock perl module
 Summary(pl):	Modu³ perla File-BasicFlock
 Name:		perl-File-BasicFlock
 Version:	98.1202
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ File-BasicFlock umo¿liwia blokowanie pliku przy u¿yciu funkcji
 flock().
 
 %prep
-%setup -q -n File-BasicFlock-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
