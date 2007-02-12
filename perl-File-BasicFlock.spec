@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	BasicFlock
 Summary:	File::BasicFlock - file locking with flock
-Summary(pl):	File::BasicFlock - blokowanie plików za pomoc± flock
+Summary(pl.UTF-8):   File::BasicFlock - blokowanie plikÃ³w za pomocÄ… flock
 Name:		perl-File-BasicFlock
 Version:	98.1202
 Release:	10
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 File::BasicFlock module is used to lock files using the flock() call. 
 The file to be locked must already exist.
 
-%description -l pl
-Modu³ File::BasicFlock s³u¿y do blokowania plików za pomoc± wywo³ania
-flock(). Blokowany plik musi istnieæ. 
+%description -l pl.UTF-8
+ModuÅ‚ File::BasicFlock sÅ‚uÅ¼y do blokowania plikÃ³w za pomocÄ… wywoÅ‚ania
+flock(). Blokowany plik musi istnieÄ‡. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
