@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	BasicFlock
 Summary:	File::BasicFlock - file locking with flock
-Summary(pl.UTF-8):   File::BasicFlock - blokowanie plików za pomocą flock
+Summary(pl.UTF-8):	File::BasicFlock - blokowanie plików za pomocą flock
 Name:		perl-File-BasicFlock
 Version:	98.1202
 Release:	10
