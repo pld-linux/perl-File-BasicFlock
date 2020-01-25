@@ -4,7 +4,6 @@
 
 %define		pdir	File
 %define		pnam	BasicFlock
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::BasicFlock - file locking with flock
 Summary(pl.UTF-8):	File::BasicFlock - blokowanie plików za pomocą flock
 Name:		perl-File-BasicFlock
