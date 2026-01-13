@@ -8,7 +8,7 @@ Summary:	File::BasicFlock - file locking with flock
 Summary(pl.UTF-8):	File::BasicFlock - blokowanie plików za pomocą flock
 Name:		perl-File-BasicFlock
 Version:	98.1202
-Release:	11
+Release:	12
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
